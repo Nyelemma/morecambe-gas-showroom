@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Repair call out request | Morecambe Gas Services</title>
+    <meta
+      name="description"
+      content="Request a repair call out for your boiler, gas fire or central heating in Morecambe and surrounding areas. Morecambe Gas Services."
+    />
+    <link rel="canonical" href="https://morecambegas.co.uk/repair-request.html" />
+
+    <link rel="icon" href="images/logo-mgs.png" type="image/png" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="top-bar" role="region" aria-label="Emergency contact">
+      <div class="wrap">
+        <span
+          ><strong>Gas and water emergency:</strong>
+          <a href="tel:+441524409398">01524 409398</a> ·
+          <a href="tel:+447312126456">07312 126456</a></span
+        >
+      </div>
+    </div>
+
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a class="brand" href="index.html#top">
+          <img src="images/logo-mgs.png" alt="Morecambe Gas Services — MGS" decoding="async" />
+        </a>
+        <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu</button>
+        <nav id="site-nav" class="nav-main" aria-label="Primary">
+          <a href="index.html#top">Home</a>
+          <a href="index.html#service-contracts">Service contracts</a>
+          <a href="index.html#boilers">Boilers &amp; heating</a>
+          <a href="servicing.html">Servicing</a>
+          <a href="index.html#repairs">Repairs</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main">
+      <section class="hero hero--split page-hero--compact" aria-labelledby="repair-hero-title">
+        <div class="wrap hero-split-inner">
+          <div class="hero__copy">
+            <p class="hero-eyebrow">Repairs</p>
+            <h1 id="repair-hero-title">Repair call out request</h1>
+            <p class="lead">
+              Use this form for faults, loss of heating or hot water, non-emergency leaks, or unusual behaviour from your boiler,
+              fire or heating system. Routine annual servicing is usually arranged via the servicing section on our home page.
+            </p>
+            <div class="hero-actions">
+              <a class="btn btn-outline" href="index.html#repairs">Back to repairs information</a>
+              <a class="btn btn-outline" href="tel:+441524409398">Call 01524 409398</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="wrap page-section" aria-labelledby="repair-form-heading">
+        <h2 id="repair-form-heading" class="visually-hidden">Repair request form</h2>
+        <div class="enquiry-layout">
+          <div class="repair-form-preface callout callout--repair-lead" role="region" aria-labelledby="repair-safety-title">
+            <h2 id="repair-safety-title">Before you continue</h2>
+            <p>
+              <strong>Gas smell:</strong> open doors and windows, avoid flames and electrical switches, then call the Cadent gas
+              emergency line <a href="tel:0800111999">0800 111 999</a>. You can message us on
+              <a href="tel:+447312126456">07312 126456</a> afterwards for local follow-up once you are safe.
+            </p>
+            <p>
+              <strong>Urgent water escape:</strong> call or text <a href="tel:+447312126456">07312 126456</a> or
+              <a href="tel:+441524409398">01524 409398</a>.
+            </p>
+          </div>
+
+          <div class="enquiry-context" aria-live="polite">
+            <p>
+              <strong>Repair call out.</strong> Please describe the fault as clearly as you can and tell us the best times for us to
+              contact you and to attend. We will assess the request and respond as soon as we can.
+            </p>
+          </div>
+
+          <form id="repair-request-form" class="enquiry-form">
+            <input type="hidden" name="mail_subject" value="Repair call out request — Morecambe Gas Services" />
+
+            <div class="form-field">
+              <label for="repair-name">Your name <span aria-hidden="true">*</span></label>
+              <input id="repair-name" name="name" type="text" required autocomplete="name" />
+            </div>
+
+            <div class="form-field">
+              <label for="repair-phone">Phone <span aria-hidden="true">*</span></label>
+              <input id="repair-phone" name="phone" type="tel" required autocomplete="tel" />
+            </div>
+
+            <div class="form-field">
+              <label for="repair-email">Email <span aria-hidden="true">*</span></label>
+              <input id="repair-email" name="email" type="email" required autocomplete="email" />
+            </div>
+
+            <div class="form-field">
+              <label for="repair-address">Property address or postcode <span aria-hidden="true">*</span></label>
+              <input id="repair-address" name="address" type="text" required autocomplete="street-address" />
+              <p class="form-hint">So we can plan a visit in the right area.</p>
+            </div>
+
+            <div class="form-field">
+              <label for="repair-appliance">What needs attention? <span aria-hidden="true">*</span></label>
+              <select id="repair-appliance" name="appliance" required>
+                <option value="" selected disabled>Please select</option>
+                <option value="Gas boiler">Gas boiler</option>
+                <option value="Gas fire">Gas fire</option>
+                <option value="Central heating system (radiators, controls, etc.)">Central heating system</option>
+                <option value="Hot water only">Hot water only</option>
+                <option value="Multiple / not sure">Multiple appliances / not sure</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="repair-urgency">Situation <span aria-hidden="true">*</span></label>
+              <select id="repair-urgency" name="urgency" required>
+                <option value="" selected disabled>Please select</option>
+                <option value="No heating">No heating</option>
+                <option value="No hot water">No hot water</option>
+                <option value="No heating and no hot water">No heating and no hot water</option>
+                <option value="Intermittent fault / keeps cutting out">Intermittent fault / keeps cutting out</option>
+                <option value="Error code or lockout shown">Error code or lockout shown</option>
+                <option value="Water leak (not a major escape)">Water leak (not a major escape)</option>
+                <option value="Unusual noise or smell (not gas)">Unusual noise or smell (not gas)</option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="repair-fault">Describe the fault <span aria-hidden="true">*</span></label>
+              <textarea
+                id="repair-fault"
+                name="fault_description"
+                required
+                rows="5"
+                placeholder="What happens, when it started, anything that makes it better or worse…"
+              ></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="repair-codes">Display or fault codes <span class="form-hint">(optional)</span></label>
+              <input id="repair-codes" name="error_codes" type="text" placeholder="e.g. E119, flashing red light…" />
+            </div>
+
+            <div class="form-field">
+              <label for="repair-duration">How long has this been an issue?</label>
+              <select id="repair-duration" name="duration">
+                <option value="" selected>Prefer not to say</option>
+                <option value="Started today">Started today</option>
+                <option value="Within the last few days">Within the last few days</option>
+                <option value="About a week">About a week</option>
+                <option value="Longer than a week">Longer than a week</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="repair-best-contact">Best time for us to contact you <span aria-hidden="true">*</span></label>
+              <select id="repair-best-contact" name="best_time_contact" required>
+                <option value="" selected disabled>Please select</option>
+                <option value="No preference (weekdays)">No preference (weekdays)</option>
+                <option value="Weekday mornings (9:00–12:00)">Weekday mornings (9:00–12:00)</option>
+                <option value="Weekday afternoons (12:00–17:00)">Weekday afternoons (12:00–17:00)</option>
+                <option value="Early evening (after 17:00)">Early evening (after 17:00)</option>
+                <option value="I will explain below">I will explain below</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="repair-best-visit">Best time for an engineer to visit <span aria-hidden="true">*</span></label>
+              <select id="repair-best-visit" name="best_time_visit" required>
+                <option value="" selected disabled>Please select</option>
+                <option value="No preference (weekdays)">No preference (weekdays)</option>
+                <option value="Weekday mornings (9:00–12:00)">Weekday mornings (9:00–12:00)</option>
+                <option value="Weekday afternoons (12:00–17:00)">Weekday afternoons (12:00–17:00)</option>
+                <option value="Saturday (if available — please confirm)">Saturday (if available — please confirm)</option>
+                <option value="I will explain below">I will explain below</option>
+              </select>
+            </div>
+
+            <div class="form-field">
+              <label for="repair-timing-notes">Extra detail on contact or visit times <span class="form-hint">(optional)</span></label>
+              <textarea id="repair-timing-notes" name="timing_notes" rows="3" placeholder="e.g. must be after 15:00, key safe at side…"></textarea>
+            </div>
+
+            <div class="form-field">
+              <label for="repair-other">Anything else we should know? <span class="form-hint">(optional)</span></label>
+              <textarea id="repair-other" name="other_details" rows="3" placeholder="Access, pets, parking, vulnerable occupant…"></textarea>
+            </div>
+
+            <div class="form-submit">
+              <button type="submit" class="btn btn-dark">Submit repair request</button>
+            </div>
+
+            <p class="form-note">
+              Submitting opens your email app with this request — review and send. You can also call
+              <a href="tel:+441524409398">01524 409398</a> or <a href="tel:+447312126456">07312 126456</a>.
+            </p>
+
+            <div id="repair-request-status" class="enquiry-status enquiry-status--info" role="status"></div>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div>
+            <h2>Morecambe Gas Services</h2>
+            <p>Heating and gas engineers serving Morecambe and surrounding areas.</p>
+          </div>
+          <div>
+            <h2>Site</h2>
+            <ul>
+              <li><a href="index.html#top">Home</a></li>
+              <li><a href="servicing.html">Servicing</a></li>
+              <li><a href="index.html#repairs">Repairs</a></li>
+              <li><a href="enquiry.html?type=service-contract">Service contract enquiry</a></li>
+              <li><a href="customer-services.html">Contact</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Morecambe Gas Services. VAT No. 503059426.</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js" defer></script>
+    <script src="repair-request.js" defer></script>
+  </body>
+</html>

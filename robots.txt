@@ -1,0 +1,5 @@
+# Morecambe Gas Services — update the Sitemap line if you publish under a different domain or folder.
+User-agent: *
+Allow: /
+
+Sitemap: https://morecambegas.co.uk/sitemap.xml
