@@ -141,37 +141,11 @@ a:hover {
 .brand img,
 .brand .brand-mark {
   display: block;
-  height: 48px;
+  height: 64px;
   width: auto;
-  max-width: 56px;
+  max-width: 220px;
   object-fit: contain;
   flex-shrink: 0;
-}
-
-.brand-lockup {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-  line-height: 1;
-}
-
-.brand-lockup__top {
-  font-family: var(--font-display);
-  font-size: 1.45rem;
-  font-weight: 700;
-  letter-spacing: 0.02em;
-  color: var(--color-primary);
-}
-
-.brand-lockup__bottom {
-  font-family: var(--font-display);
-  font-size: 1.05rem;
-  font-weight: 600;
-  letter-spacing: 0.08em;
-  color: var(--color-primary);
-  text-transform: uppercase;
-  margin-top: 0.2rem;
-  align-self: center;
 }
 
 .brand-text {
@@ -257,22 +231,16 @@ a:hover {
 
   .brand img,
   .brand .brand-mark {
-    height: 40px;
-    max-width: 48px;
-  }
-
-  .brand-lockup__top {
-    font-size: 1.2rem;
-  }
-
-  .brand-lockup__bottom {
-    font-size: 0.85rem;
+    height: 52px;
+    max-width: 180px;
   }
 }
 
 @media (max-width: 480px) {
-  .brand-lockup__bottom {
-    letter-spacing: 0.06em;
+  .brand img,
+  .brand .brand-mark {
+    height: 44px;
+    max-width: 150px;
   }
 }
 
