@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="220" viewBox="0 0 760 220" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">Morecambe Gas Services logo</title>
+  <desc id="logoDesc">Half blue, half red flame icon with Morecambe Gas over Services text.</desc>
+  <defs>
+    <style>
+      .wordmarkTop { font: 700 68px "Barlow Condensed", Arial, sans-serif; fill: #0B1F3B; letter-spacing: 1px; }
+      .wordmarkBottom { font: 700 52px "Barlow Condensed", Arial, sans-serif; fill: #0B1F3B; letter-spacing: 1px; }
+    </style>
+  </defs>
+  <g transform="translate(24 20)">
+    <path d="M84 10 C28 52, 16 105, 32 142 C43 167, 65 180, 84 180 Z" fill="#0B1F3B"/>
+    <path d="M84 10 C140 52, 152 105, 136 142 C125 167, 103 180, 84 180 Z" fill="#E30613"/>
+    <path d="M84 48 C62 72, 60 108, 70 130 C75 142, 80 150, 84 156 Z" fill="#F2B705" opacity="0.95"/>
+  </g>
+  <text class="wordmarkTop" x="200" y="98">Morecambe Gas</text>
+  <text class="wordmarkBottom" x="340" y="160" text-anchor="middle">Services</text>
+</svg>
