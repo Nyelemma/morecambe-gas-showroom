@@ -141,9 +141,9 @@ a:hover {
 .brand img,
 .brand .brand-mark {
   display: block;
-  height: 64px;
+  height: clamp(72px, 9vw, 110px);
   width: auto;
-  max-width: 220px;
+  max-width: clamp(240px, 32vw, 360px);
   object-fit: contain;
   flex-shrink: 0;
 }
@@ -231,16 +231,16 @@ a:hover {
 
   .brand img,
   .brand .brand-mark {
-    height: 52px;
-    max-width: 180px;
+    height: 64px;
+    max-width: 220px;
   }
 }
 
 @media (max-width: 480px) {
   .brand img,
   .brand .brand-mark {
-    height: 44px;
-    max-width: 150px;
+    height: 52px;
+    max-width: 180px;
   }
 }
 
@@ -839,7 +839,7 @@ section {
 }
 
 .page-section {
-  scroll-margin-top: 5.5rem;
+  scroll-margin-top: 7.5rem;
 }
 
 .section-eyebrow {
@@ -1332,7 +1332,7 @@ form.enquiry-panel {
 
 /* Home — service contracts promo (below hero) */
 .contract-promo {
-  scroll-margin-top: 5.5rem;
+  scroll-margin-top: 7.5rem;
   padding: 2.25rem 0 2.5rem;
   background: linear-gradient(135deg, var(--color-bg-subtle) 0%, var(--color-surface) 50%, rgba(242, 183, 5, 0.12) 100%);
   border-bottom: 1px solid rgba(11, 31, 59, 0.1);
@@ -1501,5 +1501,5 @@ form.enquiry-panel {
 }
 
 .page-section article[id] {
-  scroll-margin-top: 6rem;
+  scroll-margin-top: 8rem;
 }
