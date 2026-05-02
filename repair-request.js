@@ -1,5 +1,5 @@
 (function () {
-  var REPAIR_MAIL_TO = "enquiries@morecambegas.co.uk";
+  var REPAIR_MAIL_TO = "info@morecambegas.co.uk";
 
   function line(label, value) {
     if (value === undefined || value === null || String(value).trim() === "") return "";

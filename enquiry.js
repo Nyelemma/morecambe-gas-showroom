@@ -1,5 +1,5 @@
 (function () {
-  var ENQUIRY_MAIL_TO = "enquiries@morecambegas.co.uk";
+  var ENQUIRY_MAIL_TO = "info@morecambegas.co.uk";
 
   var PRESETS = {
     "service-contract": {
