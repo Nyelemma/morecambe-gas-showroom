@@ -1539,7 +1539,11 @@ form.enquiry-panel {
 }
 
 .footer-cert-badges .footer-cert-badge--lpg {
-  max-width: 120px;
+  max-width: 140px;
+  background: #fff;
+  border-radius: 4px;
+  padding: 0.15rem 0.35rem;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
 }
 
 @media (min-width: 768px) {
@@ -1550,6 +1554,10 @@ form.enquiry-panel {
 
   .footer-cert-badges .footer-cert-badge--gas-safe {
     max-width: 180px;
+  }
+
+  .footer-cert-badges .footer-cert-badge--lpg {
+    max-width: 160px;
   }
 }
 
