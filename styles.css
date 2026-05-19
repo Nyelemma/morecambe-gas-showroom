@@ -1506,62 +1506,50 @@ form.enquiry-panel {
   scroll-margin-top: 8rem;
 }
 
-/* LPG page — hero badges */
-.hero-cert-badges {
+/* Footer certification badges */
+.footer-cert-badges {
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  justify-content: center;
   gap: 1rem 1.25rem;
-  margin-top: 1.75rem;
-  padding-top: 1.25rem;
-  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 1.25rem;
+  padding-bottom: 1.25rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
 }
 
-.hero-cert-badges a {
+.footer-cert-badges a {
   display: block;
   text-decoration: none;
 }
 
-.hero-cert-badges img {
+.footer-cert-badges img {
   display: block;
-  height: 44px;
-  width: auto;
-  max-width: 140px;
-  max-height: 44px;
-  object-fit: contain;
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.2));
-}
-
-.hero-cert-badges .hero-cert-badge--gas-safe {
   height: 40px;
+  width: auto;
   max-width: 160px;
   max-height: 40px;
+  object-fit: contain;
+}
+
+.footer-cert-badges .footer-cert-badge--gas-safe {
   background: #ffed00;
   border-radius: 4px;
   padding: 0.15rem 0.3rem;
 }
 
-.hero-cert-badges .hero-cert-badge--lpg {
-  height: 40px;
+.footer-cert-badges .footer-cert-badge--lpg {
   max-width: 120px;
-  max-height: 40px;
 }
 
 @media (min-width: 768px) {
-  .hero-cert-badges img {
-    height: 48px;
-    max-height: 48px;
+  .footer-cert-badges img {
+    height: 44px;
+    max-height: 44px;
   }
 
-  .hero-cert-badges .hero-cert-badge--gas-safe {
-    height: 44px;
+  .footer-cert-badges .footer-cert-badge--gas-safe {
     max-width: 180px;
-    max-height: 44px;
-  }
-
-  .hero-cert-badges .hero-cert-badge--lpg {
-    height: 44px;
-    max-height: 44px;
   }
 }
 
